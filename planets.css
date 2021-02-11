@@ -1,0 +1,44 @@
+* {
+ padding: 0;
+ margin: 0;
+}
+
+body {
+ background-image: url(https://theplanets.org/wp-content/uploads/2014/12/stars.jpeg);
+ min-width: 1000px;
+ min-height: 800px;
+}
+
+main {
+ width: 900px;
+ margin: 10px auto;
+ background: rgba(255, 229, 196, 0.863);
+ margin-top: 40px;
+}
+
+#planets {
+ margin: 0px auto;
+ text-align: center;
+ padding: 20px;
+}
+
+h1 {
+ text-align: center;
+ color: rgb(228, 31, 70);
+}
+
+h3 {
+ color: rgb(34, 34, 226);
+ padding: 25px;
+}
+
+p {
+ width: 800px;
+ text-align: justify;
+ margin: 0 auto;
+ font-weight: 500;
+}
+
+img {
+ padding-bottom: 10px;
+}
