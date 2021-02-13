@@ -173,31 +173,31 @@ function calculate_planets_distance() {
  }
 
  if ((from_planet.value == "Earth" && to_planet.value == "Earth") || (from_planet == "Earth" && to_planet.value == "Earth")) {
-  result_message = "The distance between " + from_planet + " and " + to_planet.value + " is 9.42 AU. That is approximately 1,409,220,000 km or 875,648,711 miles."
+  result_message = "You have selected the same Planets."
  }
 
  if ((from_planet.value == "Mars" && to_planet.value == "Mars") || (from_planet == "Mars" && to_planet.value == "Mars")) {
-  result_message = "The distance between " + from_planet + " and " + to_planet.value + " is 9.42 AU. That is approximately 1,409,220,000 km or 875,648,711 miles."
+  result_message = "You have selected the same Planets."
  }
 
  if ((from_planet.value == "Jupiter" && to_planet.value == "Jupiter") || (from_planet == "Jupiter" && to_planet.value == "Jupiter")) {
-  result_message = "The distance between " + from_planet + " and " + to_planet.value + " is 9.42 AU. That is approximately 1,409,220,000 km or 875,648,711 miles."
+  result_message = "You have selected the same Planets."
  }
 
  if ((from_planet.value == "Saturn" && to_planet.value == "Saturn") || (from_planet == "Saturn" && to_planet.value == "Saturn")) {
-  result_message = "The distance between " + from_planet + " and " + to_planet.value + " is 9.42 AU. That is approximately 1,409,220,000 km or 875,648,711 miles."
+  result_message = "You have selected the same Planets."
  }
 
  if ((from_planet.value == "Uranus" && to_planet.value == "Uranus") || (from_planet == "Uranus" && to_planet.value == "Uranus")) {
-  result_message = "The distance between " + from_planet + " and " + to_planet.value + " is 9.42 AU. That is approximately 1,409,220,000 km or 875,648,711 miles."
+  result_message = "You have selected the same Planets."
  }
 
  if ((from_planet.value == "Neptune" && to_planet.value == "Neptune") || (from_planet == "Neptune" && to_planet.value == "Neptune")) {
-  result_message = "The distance between " + from_planet + " and " + to_planet.value + " is 9.42 AU. That is approximately 1,409,220,000 km or 875,648,711 miles."
+  result_message = "You have selected the same Planets."
  }
 
  if ((from_planet.value == "Pluto" && to_planet.value == "Pluto") || (from_planet == "Pluto" && to_planet.value == "Pluto")) {
-  result_message = "The distance between " + from_planet + " and " + to_planet.value + " is 9.42 AU. That is approximately 1,409,220,000 km or 875,648,711 miles."
+  result_message = "You have selected the same Planets."
  }
 
  document.getElementById("result_message").innerHTML = result_message;
